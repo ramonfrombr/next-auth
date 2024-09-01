@@ -1,6 +1,6 @@
-import authConfig from "./auth.config";
+import authConfig from "@/auth.config";
 import NextAuth from "next-auth";
-
+import { getUserById } from "@/data/user";
 import {
   DEFAULT_LOGIN_REDIRECT,
   apiAuthPrefix,
